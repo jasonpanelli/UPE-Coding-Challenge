@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Newtonsoft.Json.Linq;
 
 namespace Code_Challenge
 {
@@ -8,10 +9,20 @@ namespace Code_Challenge
     {
         static void Main(string[] args)
         {
-            Request request = new Request();
-            request.PostRequest("http://ec2-34-216-8-43.us-west-2.compute.amazonaws.com/session", "uid", "604967089");
+            string url = "http://ec2-34-216-8-43.us-west-2.compute.amazonaws.com/game?token=";
 
+            Request Request = new Request();
+            string tokenString = Request.PostRequest("http://ec2-34-216-8-43.us-west-2.compute.amazonaws.com/session", 
+                "uid", "604967089").Result;
+            Console.WriteLine(tokenString);
 
+            dynamic data = JObject.Parse(tokenString);
+            string token = data.token;
+            url += token;
+
+            Maze maze = new Maze(url);
+
+            maze.Move(Dir.RIGHT);
 
             Console.ReadKey(true);
         }
