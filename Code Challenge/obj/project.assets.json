@@ -674,11 +674,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\theja\\College\\UPE\\Code Challenge\\C#\\Code Challenge\\Code Challenge.csproj",
+      "projectUniqueName": "C:\\Users\\theja\\College\\UPE\\Code Challenge\\UPE Coding Challenge\\Code Challenge\\Code Challenge.csproj",
       "projectName": "Code Challenge",
-      "projectPath": "C:\\Users\\theja\\College\\UPE\\Code Challenge\\C#\\Code Challenge\\Code Challenge.csproj",
+      "projectPath": "C:\\Users\\theja\\College\\UPE\\Code Challenge\\UPE Coding Challenge\\Code Challenge\\Code Challenge.csproj",
       "packagesPath": "C:\\Users\\theja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\theja\\College\\UPE\\Code Challenge\\C#\\Code Challenge\\obj\\",
+      "outputPath": "C:\\Users\\theja\\College\\UPE\\Code Challenge\\UPE Coding Challenge\\Code Challenge\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

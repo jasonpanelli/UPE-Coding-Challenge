@@ -6,17 +6,9 @@ using System.Text;
 
 namespace Code_Challenge
 {
-    class Program
+    class Request
     {
-        static void Main(string[] args)
-        {
-            //GetRequest("http://ec2-34-216-8-43.us-west-2.compute.amazonaws.com/session?=604967089");
-            PostRequest("http://ec2-34-216-8-43.us-west-2.compute.amazonaws.com/session");
-
-            Console.ReadKey(true);
-        }
-
-        async static void GetRequest(string url)
+        public async void GetRequest(string url)
         {
             using (HttpClient client = new HttpClient())
             {
@@ -31,11 +23,11 @@ namespace Code_Challenge
             }
         }
 
-        async static void PostRequest(string url)
+        public async void PostRequest(string url, string key, string value)
         {
             IEnumerable<KeyValuePair<string, string>> queries = new List<KeyValuePair<string, string>>()
             {
-                new KeyValuePair<string,string>("uid","604967089")
+                new KeyValuePair<string,string>(key,value)
             };
 
             HttpContent q = new FormUrlEncodedContent(queries);
