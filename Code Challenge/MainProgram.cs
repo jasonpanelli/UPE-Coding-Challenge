@@ -22,8 +22,7 @@ namespace Code_Challenge
 
             Maze maze = new Maze(url);
 
-            maze.Move(Dir.RIGHT);
-
+            maze.SolveAll();
             Console.ReadKey(true);
         }
     }
