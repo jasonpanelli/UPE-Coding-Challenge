@@ -9,7 +9,6 @@ C:\Users\theja\College\UPE\Code Challenge\C#\Code Challenge\obj\Debug\netcoreapp
 C:\Users\theja\College\UPE\Code Challenge\C#\Code Challenge\obj\Debug\netcoreapp2.0\Code Challenge.AssemblyInfo.cs
 C:\Users\theja\College\UPE\Code Challenge\C#\Code Challenge\obj\Debug\netcoreapp2.0\Code Challenge.dll
 C:\Users\theja\College\UPE\Code Challenge\C#\Code Challenge\obj\Debug\netcoreapp2.0\Code Challenge.pdb
-C:\Users\theja\College\UPE\Code Challenge\UPE Coding Challenge\Code Challenge\obj\Debug\netcoreapp2.0\Code Challenge.csprojResolveAssemblyReference.cache
 C:\Users\theja\College\UPE\Code Challenge\UPE Coding Challenge\Code Challenge\obj\Debug\netcoreapp2.0\Code Challenge.csproj.CoreCompileInputs.cache
 C:\Users\theja\College\UPE\Code Challenge\UPE Coding Challenge\Code Challenge\obj\Debug\netcoreapp2.0\Code Challenge.AssemblyInfoInputs.cache
 C:\Users\theja\College\UPE\Code Challenge\UPE Coding Challenge\Code Challenge\obj\Debug\netcoreapp2.0\Code Challenge.AssemblyInfo.cs
@@ -20,3 +19,4 @@ C:\Users\theja\College\UPE\Code Challenge\UPE Coding Challenge\Code Challenge\bi
 C:\Users\theja\College\UPE\Code Challenge\UPE Coding Challenge\Code Challenge\bin\Debug\netcoreapp2.0\Code Challenge.runtimeconfig.dev.json
 C:\Users\theja\College\UPE\Code Challenge\UPE Coding Challenge\Code Challenge\bin\Debug\netcoreapp2.0\Code Challenge.dll
 C:\Users\theja\College\UPE\Code Challenge\UPE Coding Challenge\Code Challenge\bin\Debug\netcoreapp2.0\Code Challenge.pdb
+C:\Users\theja\College\UPE\Code Challenge\UPE Coding Challenge\Code Challenge\obj\Debug\netcoreapp2.0\Code Challenge.csprojResolveAssemblyReference.cache

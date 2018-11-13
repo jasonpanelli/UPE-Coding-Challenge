@@ -42,13 +42,16 @@ namespace Code_Challenge
                 for (int j = 0; j < 60; j++)
                     maze[i][j] = '?';
             }
-            maze[y][x] = '-';
+            maze[y][x] = 'S';
         }
 
         public void SolveAll()
         {
             while (LevelsCompleted != TotalLevels)
+            {
                 Solve();
+                maze[y][x] = 'S';
+            }
         }
 
         void Solve()
@@ -99,6 +102,10 @@ namespace Code_Challenge
 
         public bool Move(int direction)
         {
+            if (LevelsCompleted == TotalLevels)
+            {
+                return false;
+            }
             string Result = "";
             int potentialX = x, potentialY = y;
             switch(direction)
@@ -158,10 +165,16 @@ namespace Code_Challenge
                     break;
                 case "END":
                     moves.Clear();
+                    maze[y][x] = 'E';
+                    PrintMaze();
+
                     if (LevelsCompleted != TotalLevels - 1)
                         GetMazeInfo();
                     else
-                        Console.WriteLine("Congratulations! You have solved all maze.");
+                    {
+                        Console.WriteLine("Congratulations! You have solved all mazes.");
+                        mazeInfo = Request.GetRequest(url).Result;
+                    }
                     ResetMazeData();
                     return true;
                 case "OUT_OF_BOUNDS":

@@ -42,7 +42,7 @@ namespace Code_Challenge
                     using (HttpContent content = response.Content)
                     {
                         returnValue = await content.ReadAsStringAsync();
-                        Console.WriteLine(returnValue);
+                        //Console.WriteLine(returnValue);
                     }
                 }
             }

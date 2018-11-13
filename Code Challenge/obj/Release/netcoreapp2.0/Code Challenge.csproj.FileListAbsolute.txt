@@ -1,0 +1,11 @@
+C:\Users\theja\College\UPE\Code Challenge\UPE Coding Challenge\Code Challenge\bin\Release\netcoreapp2.0\Code Challenge.deps.json
+C:\Users\theja\College\UPE\Code Challenge\UPE Coding Challenge\Code Challenge\bin\Release\netcoreapp2.0\Code Challenge.runtimeconfig.json
+C:\Users\theja\College\UPE\Code Challenge\UPE Coding Challenge\Code Challenge\bin\Release\netcoreapp2.0\Code Challenge.runtimeconfig.dev.json
+C:\Users\theja\College\UPE\Code Challenge\UPE Coding Challenge\Code Challenge\bin\Release\netcoreapp2.0\Code Challenge.dll
+C:\Users\theja\College\UPE\Code Challenge\UPE Coding Challenge\Code Challenge\bin\Release\netcoreapp2.0\Code Challenge.pdb
+C:\Users\theja\College\UPE\Code Challenge\UPE Coding Challenge\Code Challenge\obj\Release\netcoreapp2.0\Code Challenge.csprojResolveAssemblyReference.cache
+C:\Users\theja\College\UPE\Code Challenge\UPE Coding Challenge\Code Challenge\obj\Release\netcoreapp2.0\Code Challenge.csproj.CoreCompileInputs.cache
+C:\Users\theja\College\UPE\Code Challenge\UPE Coding Challenge\Code Challenge\obj\Release\netcoreapp2.0\Code Challenge.AssemblyInfoInputs.cache
+C:\Users\theja\College\UPE\Code Challenge\UPE Coding Challenge\Code Challenge\obj\Release\netcoreapp2.0\Code Challenge.AssemblyInfo.cs
+C:\Users\theja\College\UPE\Code Challenge\UPE Coding Challenge\Code Challenge\obj\Release\netcoreapp2.0\Code Challenge.dll
+C:\Users\theja\College\UPE\Code Challenge\UPE Coding Challenge\Code Challenge\obj\Release\netcoreapp2.0\Code Challenge.pdb

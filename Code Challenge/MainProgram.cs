@@ -22,6 +22,11 @@ namespace Code_Challenge
 
             Maze maze = new Maze(url);
 
+            string temp = Request.PostRequest(url, "action", "UP").Result;
+            temp = Request.PostRequest(url, "action", "LEFT").Result;
+            temp = Request.PostRequest(url, "action", "RIGHT").Result;
+            temp = Request.PostRequest(url, "action", "DOWN").Result;
+            Console.Write("\n");
             maze.SolveAll();
             Console.ReadKey(true);
         }
